@@ -1,19 +1,10 @@
 <odoo>
   <data>
-    <!-- explicit list view definition -->
-<!--
+
     <record model="ir.ui.view" id="debtor_status.list">
-      <field name="name">DebtorStatus list</field>
+      <field name="name">DebtorStatus</field>
       <field name="model">debtor_status.debtor_status</field>
-      <field name="arch" type="xml">
-        <tree>
-          <field name="name"/>
-          <field name="value"/>
-          <field name="value2"/>
-        </tree>
-      </field>
     </record>
--->
 
     <!-- actions opening views on models -->
 <!--
