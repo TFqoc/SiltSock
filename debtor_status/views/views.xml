@@ -1,9 +1,16 @@
+<?xml version="1.0"?>
 <odoo>
   <data>
-
-    <record model="ir.ui.view" id="debtor_status.list">
-      <field name="name">DebtorStatus</field>
-      <field name="model">debtor_status.debtor_status</field>
+    <record model="ir.ui.view" id="view_partner_form_inherit">
+      <field name="name">Trust Level</field>
+      <field name="model">res.partner</field>
+      <field name="inherit_id" ref="base.view_partner_form"/>
+      <field name="arch" type="xml">
+        <field name="name" position="after">
+        <br />
+          <field name="trust"/>
+        </field>
+      </field>
     </record>
 
     <!-- actions opening views on models -->
