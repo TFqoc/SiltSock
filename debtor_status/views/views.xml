@@ -6,9 +6,13 @@
       <field name="model">res.partner</field>
       <field name="inherit_id" ref="base.view_partner_form"/>
       <field name="arch" type="xml">
-        <field name="name" position="after">
-        <br />
-          <field name="trust"/>
+        <field name="vat" position="before">
+        <div>
+          <div role="img" id="oe_hr_attendance_status" class="fa fa-fw fa-circle o_button_icon" style="color: green;" attrs="{'invisible': [('trust', '!=', 'good')]}" aria-label="Good Debtor" title="Good Debtor"/>
+          <div role="img" id="oe_hr_attendance_status" class="fa fa-fw fa-circle o_button_icon" style="color: gray;" attrs="{'invisible': [('trust', '!=', 'normal')]}" aria-label="Normal Debtor" title="Normal Debtor"/>
+          <div role="img" id="oe_hr_attendance_status" class="fa fa-fw fa-circle o_button_icon" style="color: red;" attrs="{'invisible': [('trust', '!=', 'bad')]}" aria-label="Bad Debtor" title="Bad Debtor"/>
+        </div>
+        <field name="trust" string="Debtor Status"/>
         </field>
       </field>
     </record>
