@@ -17,7 +17,7 @@
       </field>
     </record>
 
-    <record model="ir.ui.view" id="sale.view_order_form">
+    <record model="ir.ui.view" id="view_order_form">
       <field name="name">Delivery Date</field>
       <field name="model">sale.order</field>
       <field name="inherit_id" ref="base.view_order_form"/>
