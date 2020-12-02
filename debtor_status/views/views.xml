@@ -17,16 +17,16 @@
       </field>
     </record>
 
-    <record model="ir.ui.view" id="view_order_form">
+    
+    <record model="ir.ui.view" id="view_order_form_inherit">
       <field name="name">Delivery Date</field>
       <field name="model">sale.order</field>
-      <field name="inherit_id" ref="base.view_order_form"/>
+      <field name="inherit_id" ref="sale.view_order_form"/>
       <field name="arch" type="xml">
         <field name="payment_term_id" position="after">
           <field name="commitment_date" string="Delivery Date" />
         </field>
       </field>
-
     </record>
 
     <!-- actions opening views on models -->
