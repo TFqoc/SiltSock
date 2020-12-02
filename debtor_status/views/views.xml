@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<odoo>
+  <data>
+    <record model="ir.ui.view" id="view_partner_form_inherit">
+      <field name="name">Trust Level</field>
+      <field name="model">res.partner</field>
+      <field name="inherit_id" ref="base.view_partner_form"/>
+      <field name="arch" type="xml">
+        <field name="vat" position="before">
+        <div>
+          <div role="img" id="oe_hr_attendance_status" class="fa fa-fw fa-circle o_button_icon" style="color: green;" attrs="{'invisible': [('trust', '!=', 'good')]}" aria-label="Good Debtor" title="Good Debtor"/>
+          <div role="img" id="oe_hr_attendance_status" class="fa fa-fw fa-circle o_button_icon" style="color: gray;" attrs="{'invisible': [('trust', '!=', 'normal')]}" aria-label="Normal Debtor" title="Normal Debtor"/>
+          <div role="img" id="oe_hr_attendance_status" class="fa fa-fw fa-circle o_button_icon" style="color: red;" attrs="{'invisible': [('trust', '!=', 'bad')]}" aria-label="Bad Debtor" title="Bad Debtor"/>
+        </div>
+        <field name="trust" string="Debtor Status"/>
+        </field>
+      </field>
+    </record>
+
+    
+    <record model="ir.ui.view" id="view_order_form_inherit">
+      <field name="name">Delivery Date</field>
+      <field name="model">sale.order</field>
+      <field name="inherit_id" ref="sale.view_order_form"/>
+      <field name="arch" type="xml">
+        <field name="payment_term_id" position="after">
+          <field name="commitment_date" string="Delivery Date" />
+        </field>
+      </field>
+    </record>
+
+    <!-- actions opening views on models -->
+<!--
+    <record model="ir.actions.act_window" id="debtor_status.action_window">
+      <field name="name">DebtorStatus window</field>
+      <field name="res_model">debtor_status.debtor_status</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+-->
+
+    <!-- server action to the one above -->
+<!--
+    <record model="ir.actions.server" id="debtor_status.action_server">
+      <field name="name">DebtorStatus server</field>
+      <field name="model_id" ref="model_debtor_status_debtor_status"/>
+      <field name="state">code</field>
+      <field name="code">
+        action = {
+          "type": "ir.actions.act_window",
+          "view_mode": "tree,form",
+          "res_model": model._name,
+        }
+      </field>
+    </record>
+-->
+
+    <!-- Top menu item -->
+<!--
+    <menuitem name="DebtorStatus" id="debtor_status.menu_root"/>
+-->
+    <!-- menu categories -->
+<!--
+    <menuitem name="Menu 1" id="debtor_status.menu_1" parent="debtor_status.menu_root"/>
+    <menuitem name="Menu 2" id="debtor_status.menu_2" parent="debtor_status.menu_root"/>
+-->
+    <!-- actions -->
+<!--
+    <menuitem name="List" id="debtor_status.menu_1_list" parent="debtor_status.menu_1"
+              action="debtor_status.action_window"/>
+    <menuitem name="Server to list" id="debtor_status" parent="debtor_status.menu_2"
+              action="debtor_status.action_server"/>
+-->
+  </data>
+</odoo>
