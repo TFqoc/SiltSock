@@ -7,5 +7,6 @@ class Product(models.Model):
     def name_get(self):
         res = []
         for record in self:
-            res.append((record.id, record.name))
+            name = str(record.name)
+            res.append((record.id, name))
         return res
