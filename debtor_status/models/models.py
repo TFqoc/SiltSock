@@ -1,5 +1,11 @@
-from odoo import models, fields
+from odoo import models, fields, api
 
 class Product(models.Model):
     _inherit = 'product.product'
-    _rec_name = 'name'
+    
+    @api.multi
+    def name_get(self):
+        res = []
+        for record in self:
+            res.append((record.name))
+        return res
