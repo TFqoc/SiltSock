@@ -3,7 +3,7 @@
 <odoo>
     <data>
       <template id="invoice_modification" inherit_id="account.report_invoice_document">
-        <xpath xpath="//address" position="replace">
+        <xpath expr="//address" position="replace">
           <div class="container">
             <div class="row">
               <div class="col-sm">
