@@ -2,10 +2,18 @@
 
 <odoo>
     <data>
-      <template id="invoice_modification" inherit_id="account.report_invoice_with_payments">
-        <!-- <xpath expr="//name" position="after">
-          <field name="test" string="Test"/>
-        </xpath> -->
+      <template id="invoice_modification" inherit_id="account.report_invoice_document">
+        <xpath xpath="//address" position="replace">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm">
+                <p> Test </p>
+              <div class="col-sm">
+                <p> Test Two </p>
+              </div>
+            </div>
+          </div>
+        </xpath>
       </template>
     </data>
 </odoo>
