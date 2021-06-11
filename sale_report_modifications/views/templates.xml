@@ -1,6 +1,10 @@
 <odoo>
     <data>
       <template id="invoice_modification" inherit_id="account.report_invoice_with_payments">
+        <xpath expr="//name" position="after">
+          <field name="test" string="Test">
+          </field>
+        </xpath>
       </template>
     </data>
 </odoo>
