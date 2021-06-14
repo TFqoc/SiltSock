@@ -5,7 +5,7 @@
     'summary': "Adds the Debtor status indicator from accounting to the Conctact and Sales apps.",
 
     'description': """
-        Adds the Debtor status indicator from accounting to the Conctact and Sales apps.
+        Rebuilds the header and adds other changes to Odoo's base reports.
     """,
 
     'author': "QOC Innovations",
