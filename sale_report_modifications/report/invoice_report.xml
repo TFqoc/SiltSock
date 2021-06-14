@@ -4,14 +4,14 @@
     <data>
       <template id="invoice_modification" inherit_id="account.report_invoice_document">
       <!-- Template ID: Identifies this record, and Inherit ID is the record that this is modifying. -->
-        <xpath expr="//address" position="replace">
+        <xpath expr="//table" position="after">
           <div class="container">
             <div class="row">
               <div class="col-sm">
-                <p> Test </p>
-              </div>
-              <div class="col-sm">
-                <p> Test Two </p>
+                <p> Remit Payment to: </p>
+                <p> Silt Sock Inc </p>
+                <p> N6110 Johnson Road </p>
+                <p> Portage, WI 53590 </p>
               </div>
             </div>
           </div>
