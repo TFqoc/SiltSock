@@ -31,7 +31,7 @@
           </div>
         </xpath>
       </template>
-
+<!-- 
       <template id="siltsock_header_boxed" inherit_id="web.external_layout_boxed">
         <xpath expr="/div[1]/div[@class='o_boxed_header']/div[@class='row mb8']//div[2]" position="replace">
           <div class="container-fluid">
@@ -45,9 +45,9 @@
             </div>
           </div>
         </xpath>
-      </template>
+      </template> -->
 
-      <template id="siltsock_header_background" inherit_id="web.external_layout_background">
+      <!-- <template id="siltsock_header_background" inherit_id="web.external_layout_background">
         <xpath expr="/div[1]/div[@class='o_background_header']//div[2]" position="replace">
           <div class="container-fluid">
             <div class="row" style="font-size:12px">
@@ -60,6 +60,6 @@
             </div>
           </div>
         </xpath>
-      </template>
+      </template> -->
   </data>
 </odoo>
