@@ -33,7 +33,7 @@
       </template>
 
       <template id="siltsock_header_boxed" inherit_id="web.external_layout_boxed">
-        <xpath expr="(//div[@class='col-6 text-right mb4'])" position="replace">
+        <xpath expr="/template[@id='external_layout_boxed']/div[1]/div[@class='o_boxed_header']/div[@class='row mb8']//div[2]" position="replace">
           <div class="container-fluid">
             <div class="row" style="font-size:12px">
               <div class="col-3">
@@ -48,7 +48,7 @@
       </template>
 
       <template id="siltsock_header_background" inherit_id="web.external_layout_background">
-        <xpath expr="(//div[@class='float-left'])" position="replace">
+        <xpath expr="/template[@id='external_layout_background']/div[1]/div[@class='o_background_header']//div[2]" position="replace">
           <div class="container-fluid">
             <div class="row" style="font-size:12px">
               <div class="col-3">
