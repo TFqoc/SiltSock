@@ -6,7 +6,7 @@
         <xpath expr="(//div[@class='row'])[2]" position="replace">
           <div class="container">
             <div class="row">
-              <div class="col-3">
+              <div class="col-3" style="font-size:10px">
                 <p> Wisconsin Location: <br/> N6110 Johnson Road <br/> Portage, WI 53590 <br/> Phone: 608-438-7625 <br/> Fax: 608-742-6222 <br/> Email: office@siltsock.net </p>
               </div>
               <div class="col-3">
