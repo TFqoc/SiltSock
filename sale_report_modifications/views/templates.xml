@@ -33,7 +33,7 @@
       </template>
 
       <template id="siltsock_header_boxed" inherit_id="web.external_layout_boxed">
-        <xpath expr="(//div[@class='col-6 text-right mb4'])[2]" position="replace">
+        <xpath expr="(//div[@class='col-6 text-right mb4'])" position="replace">
           <div class="container-fluid">
             <div class="row" style="font-size:12px">
               <div class="col-3">
