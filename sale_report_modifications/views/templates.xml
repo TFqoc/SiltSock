@@ -31,10 +31,10 @@
           </div>
         </xpath>
       </template>
-<!-- 
+
       <template id="siltsock_header_boxed" inherit_id="web.external_layout_boxed">
-        <xpath expr="/div[1]/div[@class='o_boxed_header']/div[@class='row mb8']//div[2]" position="replace">
-          <div class="container-fluid">
+        <xpath expr="(//div[@name='company_address'])" position="replace">
+          <div class="container-fluid text-right">
             <div class="row" style="font-size:12px">
               <div class="col-3">
                 <p> Wisconsin Location: <br/> N6110 Johnson Road <br/> Portage, WI 53590 <br/> Phone: 608-438-7625 <br/> Fax: 608-742-6222 <br/> Email: office@siltsock.net </p>
@@ -45,11 +45,11 @@
             </div>
           </div>
         </xpath>
-      </template> -->
+      </template>
 
       <template id="siltsock_header_background" inherit_id="web.external_layout_background">
         <xpath expr="(//div[@class='float-left company_address'])" position="replace">
-          <div class="container">
+          <div class="container text-right">
             <div class="row" style="font-size:12px">
               <div class="col-5">
                 <p> Wisconsin Location: <br/> N6110 Johnson Road <br/> Portage, WI 53590 <br/> Phone: 608-438-7625 <br/> Fax: 608-742-6222 <br/> Email: office@siltsock.net </p>
