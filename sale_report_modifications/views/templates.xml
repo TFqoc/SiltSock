@@ -7,10 +7,10 @@
           <div class="container-fluid">
             <div class="row" style="font-size:12px">
               <div class="col-3">
-                <p> Wisconsin Location: <br/> N6110 Johnson Road <br/> Portage, WI 53590 <br/> Phone: 608-438-7625 <br/> Fax: 608-742-6222 <br/> Email: office@siltsock.net </p>
+                <address> Wisconsin Location: <br/> N6110 Johnson Road <br/> Portage, WI 53590 <br/> Phone: 608-438-7625 <br/> Fax: 608-742-6222 <br/> Email: office@siltsock.net </address>
               </div>
               <div class="col-3">
-                <p> Minnesota Location: <br/> 333 Bronder Drive <br/> Foley, MN 56329 <br/> Phone: 320-818-1136 <br/> Fax: 320-818-1136 <br/> Email: foleyoffice@siltsock.net </p>
+                <address> Minnesota Location: <br/> 333 Bronder Drive <br/> Foley, MN 56329 <br/> Phone: 320-818-1136 <br/> Fax: 320-818-1136 <br/> Email: foleyoffice@siltsock.net </address>
               </div>
             </div>
           </div>
@@ -22,10 +22,10 @@
           <div class="container-fluid">
             <div class="row" style="font-size:12px">
               <div class="col-3">
-                <p> Wisconsin Location: <br/> N6110 Johnson Road <br/> Portage, WI 53590 <br/> Phone: 608-438-7625 <br/> Fax: 608-742-6222 <br/> Email: office@siltsock.net </p>
+                <address> Wisconsin Location: <br/> N6110 Johnson Road <br/> Portage, WI 53590 <br/> Phone: 608-438-7625 <br/> Fax: 608-742-6222 <br/> Email: office@siltsock.net </address>
               </div>
               <div class="col-3">
-                <p> Minnesota Location: <br/> 333 Bronder Drive <br/> Foley, MN 56329 <br/> Phone: 320-818-1136 <br/> Fax: 320-818-1136 <br/> Email: foleyoffice@siltsock.net </p>
+                <address> Minnesota Location: <br/> 333 Bronder Drive <br/> Foley, MN 56329 <br/> Phone: 320-818-1136 <br/> Fax: 320-818-1136 <br/> Email: foleyoffice@siltsock.net </address>
               </div>
             </div>
           </div>
@@ -35,12 +35,12 @@
       <template id="siltsock_header_boxed" inherit_id="web.external_layout_boxed">
         <xpath expr="(//div[@name='company_address'])" position="replace">
           <div class="container-fluid text-right">
-            <div class="row" style="font-size:11px">
+            <div class="row" style="font-size:10px">
               <div class="col-6">
-                <p> Wisconsin Location: <br/> N6110 Johnson Road <br/> Portage, WI 53590 <br/> Phone: 608-438-7625 <br/> Fax: 608-742-6222 <br/> Email: office@siltsock.net </p>
+                <address> Wisconsin Location: <br/> N6110 Johnson Road <br/> Portage, WI 53590 <br/> Phone: 608-438-7625 <br/> Fax: 608-742-6222 <br/> Email: office@siltsock.net </address>
               </div>
               <div class="col-6">
-                <p> Minnesota Location: <br/> 333 Bronder Drive <br/> Foley, MN 56329 <br/> Phone: 320-818-1136 <br/> Fax: 320-818-1136 <br/> Email: foleyoffice@siltsock.net </p>
+                <address> Minnesota Location: <br/> 333 Bronder Drive <br/> Foley, MN 56329 <br/> Phone: 320-818-1136 <br/> Fax: 320-818-1136 <br/> Email: foleyoffice@siltsock.net </address>
               </div>
             </div>
           </div>
@@ -52,10 +52,10 @@
           <div class="container text-right">
             <div class="row" style="font-size:12px">
               <div class="col-5">
-                <p> Wisconsin Location: <br/> N6110 Johnson Road <br/> Portage, WI 53590 <br/> Phone: 608-438-7625 <br/> Fax: 608-742-6222 <br/> Email: office@siltsock.net </p>
+                <address> Wisconsin Location: <br/> N6110 Johnson Road <br/> Portage, WI 53590 <br/> Phone: 608-438-7625 <br/> Fax: 608-742-6222 <br/> Email: office@siltsock.net </address>
               </div>
               <div class="col-5">
-                <p> Minnesota Location: <br/> 333 Bronder Drive <br/> Foley, MN 56329 <br/> Phone: 320-818-1136 <br/> Fax: 320-818-1136 <br/> Email: foleyoffice@siltsock.net </p>
+                <address> Minnesota Location: <br/> 333 Bronder Drive <br/> Foley, MN 56329 <br/> Phone: 320-818-1136 <br/> Fax: 320-818-1136 <br/> Email: foleyoffice@siltsock.net </address>
               </div>
             </div>
           </div>
