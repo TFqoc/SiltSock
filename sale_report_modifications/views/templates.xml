@@ -5,7 +5,7 @@
       <!-- Template ID: Identifies this record, and Inherit ID is the record that this is modifying. -->
         <xpath expr="(//div[@class='row'])[2]" position="replace">
           <div class="container-fluid">
-            <div class="row" style="font-size:12px">
+            <div class="row" style="font-size:10px">
               <div class="col-3">
                 <address> Wisconsin Location: <br/> N6110 Johnson Road <br/> Portage, WI 53590 <br/> Phone: 608-438-7625 <br/> Fax: 608-742-6222 <br/> Email: office@siltsock.net </address>
               </div>
@@ -20,7 +20,7 @@
       <template id="siltsock_header_clean" inherit_id="web.external_layout_clean">
         <xpath expr="(//div[@name='company_address'])" position="replace">
           <div class="container-fluid">
-            <div class="row" style="font-size:12px">
+            <div class="row" style="font-size:10px">
               <div class="col-3">
                 <address> Wisconsin Location: <br/> N6110 Johnson Road <br/> Portage, WI 53590 <br/> Phone: 608-438-7625 <br/> Fax: 608-742-6222 <br/> Email: office@siltsock.net </address>
               </div>
@@ -50,7 +50,7 @@
       <template id="siltsock_header_background" inherit_id="web.external_layout_background">
         <xpath expr="(//div[@class='float-left company_address'])" position="replace">
           <div class="container text-right">
-            <div class="row" style="font-size:12px">
+            <div class="row" style="font-size:10px">
               <div class="col-5">
                 <address> Wisconsin Location: <br/> N6110 Johnson Road <br/> Portage, WI 53590 <br/> Phone: 608-438-7625 <br/> Fax: 608-742-6222 <br/> Email: office@siltsock.net </address>
               </div>
