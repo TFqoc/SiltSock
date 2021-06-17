@@ -36,10 +36,10 @@
         <xpath expr="(//div[@name='company_address'])" position="replace">
           <div class="container-fluid text-right">
             <div class="row" style="font-size:12px">
-              <div class="col-6">
+              <div class="col-5">
                 <p> Wisconsin Location: <br/> N6110 Johnson Road <br/> Portage, WI 53590 <br/> Phone: 608-438-7625 <br/> Fax: 608-742-6222 <br/> Email: office@siltsock.net </p>
               </div>
-              <div class="col-6">
+              <div class="col-7">
                 <p> Minnesota Location: <br/> 333 Bronder Drive <br/> Foley, MN 56329 <br/> Phone: 320-818-1136 <br/> Fax: 320-818-1136 <br/> Email: foleyoffice@siltsock.net </p>
               </div>
             </div>
