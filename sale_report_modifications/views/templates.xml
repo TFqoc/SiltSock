@@ -47,8 +47,8 @@
         </xpath>
       </template> -->
 
-      <!-- <template id="siltsock_header_background" inherit_id="web.external_layout_background">
-        <xpath expr="/div[1]/div[@class='o_background_header']//div[2]" position="replace">
+      <template id="siltsock_header_background" inherit_id="web.external_layout_background">
+        <xpath expr="(//div[@class='float-left company_address'])" position="replace">
           <div class="container-fluid">
             <div class="row" style="font-size:12px">
               <div class="col-3">
@@ -60,6 +60,6 @@
             </div>
           </div>
         </xpath>
-      </template> -->
+      </template>
   </data>
 </odoo>
